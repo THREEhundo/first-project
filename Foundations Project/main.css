@@ -1,0 +1,95 @@
+
+html {
+ background-color: gold;
+}
+
+h1, h2 {
+ font-family: Pacifico;
+ text-align: center;
+ font-size: 60px;
+ margin-top: 150px;
+}
+
+#gps {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+ background-color: black;
+ position: fixed;
+ top: 0;
+ width: 100%;
+}
+
+.board {
+ float: left;
+ border-top: 5px solid black;
+ border-bottom: 5px solid black;
+
+}
+li a {
+ display: block;
+ color: white;
+ padding: 14px 16px;
+ text-decoration: none;
+ 
+}
+
+a:hover {
+background-color: gold;
+}
+
+.row1 {
+ display: flex;
+ flex-wrap: wrap;
+ padding: 0 4px;
+ flex-direction: row;
+ justify-content: center;
+
+}
+.row2 {
+ flex: 100%;
+ max-width: 100%;
+ padding: 0 4px;
+}
+
+.row img {
+ margin-top: 8px;
+ margin-left: 8px;
+ vertical-align: middle;
+}
+a {
+ text-decoration: none;
+}
+
+.container {
+position: relative;
+text-align: center;
+color: black;
+}
+
+.oval {
+ display: block;
+ max-width: 100%;
+ border-radius: 55%;
+}
+
+footer {
+ width: auto;
+ background-color: black;
+ padding: 40px 2px 2px 20px;
+ margin: 100px 0px 0px 0px;
+}
+
+body {
+ margin: 0;
+}
+
+p {
+font-family: Pacifico; /* Roboto-Condensed; *\
+float: right;
+}
+
+
+
+
